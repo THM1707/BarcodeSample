@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/action_scan"
+                android:paddingBottom="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_scan"/>
+            <Button
+                android:id="@+id/bt_chose"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="@string/action_chose"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_qr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/tx_content"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</ScrollView>
