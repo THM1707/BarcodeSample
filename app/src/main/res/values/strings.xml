@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BarcodeSample</string>
+    <string name="app_name">QR Check</string>
     <string name="err_detector">Could not setup detector</string>
     <string name="err_detec">Could not detect the code given</string>
     <string name="action_chose">Chose File</string>
@@ -7,4 +7,11 @@
     <string name="action_load">Load picture</string>
     <string name="msg_permission_cam">No permission to access the camera</string>
     <string name="msg_permission_storage">No permission to access the storage</string>
+    <string name="nav_product">Product</string>
+    <string name="nav_history">History</string>
+    <string name="menu_product">Product</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_history">History</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
